@@ -96,10 +96,16 @@ header nav:hover,
     height: auto;
     display: block;
     margin: 0.5em auto;
+    transform: rotate(-2deg) scale(1.02);
     transition: transform 300ms ease, box-shadow 300ms ease;
 }
-.project-1:hover, .project-2:hover, .project-3:hover {
-    transform: rotate(-2deg) scale(1.02);
+
+.project-2:hover{
+    transform: rotate(0deg) scale(1.00);
+    box-shadow: 0 12px 28px rgba(0,0,0,0.12);
+}
+.project-1:hover, .project-3:hover {
+    transform: rotate(+2deg) scale(1.00);
     box-shadow: 0 12px 28px rgba(0,0,0,0.12);
 }
 
